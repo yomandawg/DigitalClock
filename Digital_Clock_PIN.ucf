@@ -1,0 +1,55 @@
+
+NET "RESETN" LOC = "p57";
+NET "CLK" LOC = "p76"; // 1kHz
+NET "CLK_1MHz" LOC = "p79"; // 1MHz
+
+NET "LED[0]" LOC = "p191";
+NET "LED[1]" LOC = "p196";
+NET "LED[2]" LOC = "p198";
+NET "LED[3]" LOC = "p200";
+NET "LED[4]" LOC = "p204";
+NET "LED[5]" LOC = "p10";
+NET "LED[6]" LOC = "p12";
+NET "LED[7]" LOC = "p15";
+
+NET "LCD_E" LOC = "p154";
+NET "LCD_RS" LOC = "p156";
+NET "LCD_RW" LOC = "p155";
+NET "LCD_DATA[7]" LOC = "p143";
+NET "LCD_DATA[6]" LOC = "p144";
+NET "LCD_DATA[5]" LOC = "p146";
+NET "LCD_DATA[4]" LOC = "p147";
+NET "LCD_DATA[3]" LOC = "p148";
+NET "LCD_DATA[2]" LOC = "p149";
+NET "LCD_DATA[1]" LOC = "p150";
+NET "LCD_DATA[0]" LOC = "p152"; 
+
+NET "BUT[0]" LOC = "p63";
+NET "BUT[1]" LOC = "p67";
+NET "BUT[2]" LOC = "p65";
+NET "BUT[3]" LOC = "p71";
+NET "BUT[4]" LOC = "p68";
+NET "BUT[5]" LOC = "p74";
+NET "BUT[6]" LOC = "p50";
+NET "BUT[7]" LOC = "p58";
+NET "BUT[8]" LOC = "p52";
+NET "BUT[9]" LOC = "p62";
+NET "BUT[10]" LOC = "p61";
+NET "BUT[11]" LOC = "p64";
+NET "BUT[12]" LOC = "p44";
+NET "BUT[13]" LOC = "p48";
+NET "BUT[14]" LOC = "p46";
+NET "BUT[15]" LOC = "p45";
+
+NET "BUS[0]" LOC = "p34";
+NET "BUS[1]" LOC = "p35";
+NET "BUS[2]" LOC = "p37";
+NET "BUS[3]" LOC = "p36";
+NET "BUS[4]" LOC = "p40";
+NET "BUS[5]" LOC = "p39";
+NET "BUS[6]" LOC = "p43";
+NET "BUS[7]" LOC = "p42";
+
+NET "PIEZO" LOC = "p51";
+
+NET "BUT[0]" CLOCK_DEDICATED_ROUTE = FALSE;
